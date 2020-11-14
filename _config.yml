@@ -5,7 +5,7 @@ description: "투쟁하는 노동자와 함께하는 부산경남 청소년 연�
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.svg'
 baseurl: https://youthwithworker.netlify.app
-google_analytics: 'UA-46278016-1'
+google_analytics: 'G-5HV5S7RZ97'
 include: ["_pages"]
 permalink: /post/:year/:month/:day/:title/
 
