@@ -23,7 +23,7 @@ License: https://www.wowthemes.net/freebies-license/
 }
 
 *{
-    font-family: "Gmarket Sans" ;
+    font-family: "Gmarket Sans", FontAwesome !important;
 }
 @media screen and (min-width:1500px) {
     html { font-size:18px; } /* Increase the font size on higher resolutions */
