@@ -9,14 +9,18 @@
 <title>{{ page.title }} | {{site.name}}</title>
 
 {% seo image = false %}
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="{{ site.name }}" />
+<meta name="twitter:creator" content="{{ site.description }}" />
 <meta name="twitter:title" content="{{ page.title }}" />
 <meta name="twitter:description" content="{{ page.excerpt | strip_html | truncatewords:25}}" />
 {% if page.image %}
-<meta name="twitter:card" content="{{ site.baseurl }}/{{ page.image }}" />
+<meta name="twitter:image" content="{{ site.baseurl }}/{{ page.image }}">
 <meta property="og:image" content="{{ site.baseurl }}/{{ page.image }}">
 {% endif %}
-<meta name="twitter:site" content="{{ site.name }}" />
-<meta name="twitter:creator" content="{{ site.description }}" />
+
+
+
 
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     
