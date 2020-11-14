@@ -4,7 +4,7 @@ title: "뚜벅이"
 description: "투쟁하는 노동자와 함께하는 부산경남 청소년 연대모임"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.svg'
-baseurl: 
+baseurl: https://youthwithworker.netlify.app
 google_analytics: 'UA-46278016-1'
 include: ["_pages"]
 permalink: /post/:year/:month/:day/:title/
