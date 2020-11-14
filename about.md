@@ -60,7 +60,8 @@ permalink: /about
 
 <strong>2020. 06. 27.</strong> 제정<br> 
 <strong>투쟁하는 노동자와 함께하는 부산경남 청소년 연대모임: 뚜벅이</strong>
-
+<hr>
+<br><br>
 </div>
 
 <div class="col-md-4">
