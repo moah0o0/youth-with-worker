@@ -1,0 +1,59 @@
+# Site
+name: "뚜벅이"
+title: "뚜벅이"
+description: "투쟁하는 노동자와 함께하는 부산경남 청소년 연대모임"
+logo: 'assets/images/logo.png'
+favicon: 'assets/images/logo.svg'
+baseurl: 
+google_analytics: 'UA-46278016-1'
+include: ["_pages"]
+permalink: /post/:year/:month/:day/:title/
+
+# Authors
+authors:
+  twitter: youthwithworker
+  facebook: youthwithworker
+  instagram: youthwithworker
+  email: eksrufxnwod1103@gmail.com
+
+# Plugins
+plugins:
+  - jekyll-paginate-v2
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+
+
+
+pagination: 
+  enabled: true
+  paginate:
+    path:       /news/page:num
+    per_page:   2
+  paginate:
+    path:       /data:num
+    per_page:   2
+  paginate:
+    path:       /actvism:num
+    per_page:   2
+
+
+# Other
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
+
+# Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
+adsense: "disabled"
+adsense-data-ad-client: "ca-pub-3412143450191416"
+adsense-data-ad-slot: "1363087678"
+
+# Lazy Images ("enabled" or "disabled")
+lazyimages: "disabled"
+
+exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]
