@@ -17,6 +17,9 @@
 {% if page.image %}
 <meta name="twitter:image" content="{{ site.baseurl }}/{{ page.image }}">
 <meta property="og:image" content="{{ site.baseurl }}/{{ page.image }}">
+{% else %}
+<meta name="twitter:image" content="{{ site.baseurl }}/{{ site.logo }}">
+<meta property="og:image" content="{{ site.baseurl }}/{{ site.logo }}">
 {% endif %}
 <meta property="og:site_name" content="{{ site.description }}: {{ site.name }}"/>
 <meta property="og:title" content="{{ page.title }}}"/>    

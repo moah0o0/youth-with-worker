@@ -2,7 +2,6 @@
 layout: page
 title: 뚜벅이를 소개합니다!!
 permalink: /about
-image: /assets/images/about/flag.jpg
 ---
 
 <div class="row justify-content-between">
