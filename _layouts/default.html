@@ -9,7 +9,6 @@
 
 <title>{{ page.title }} | {{site.name}}</title>
 
-{% seo image = false %}
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="{{ site.name }}" />
 <meta name="twitter:creator" content="{{ site.description }}" />
@@ -19,6 +18,11 @@
 <meta name="twitter:image" content="{{ site.baseurl }}/{{ page.image }}">
 <meta property="og:image" content="{{ site.baseurl }}/{{ page.image }}">
 {% endif %}
+<meta property="og:site_name" content="{{ site.description }}: {{ site.name }}"/>
+<meta property="og:title" content="{{ page.title }}}"/>    
+<meta property="og:description" content="{ page.excerpt | strip_html | truncatewords:25}}" />
+<meta property="article:author" content="{{ site.description }}" />
+<meta property="og:url" content="{{ site.baseurl }}{{ page.url }}" />
 
 
 
