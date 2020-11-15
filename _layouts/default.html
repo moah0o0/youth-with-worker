@@ -13,12 +13,11 @@
 <meta name="twitter:creator" content="{{ site.description }}" />
 <meta name="twitter:title" content="{{ page.title }}" />
 <meta name="twitter:description" content="{{site.name}}: {{site.description}} | {{ page.excerpt | strip_html | truncatewords:25}}" />
-{% if page.image %}
 <meta name="twitter:card" content="summary_large_image">
+{% if page.image %}
 <meta name="twitter:image" content="{{ site.baseurl }}/{{ page.image }}">
 <meta property="og:image" content="{{ site.baseurl }}/{{ page.image }}">
 {% else %}
-<meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="{{ site.baseurl }}/assets/images/default_thumbnail.png">
 <meta property="og:image" content="{{ site.baseurl }}/assets/images/default_thumbnail.png">
 {% endif %}
