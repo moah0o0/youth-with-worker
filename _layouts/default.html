@@ -9,18 +9,20 @@
 
 <title>{{ page.title }} | {{site.name}}</title>
 
-<meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="{{ site.name }}" />
 <meta name="twitter:creator" content="{{ site.description }}" />
 <meta name="twitter:title" content="{{ page.title }}" />
 <meta name="twitter:description" content="{{ page.excerpt | strip_html | truncatewords:25}}" />
 {% if page.image %}
+<meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="{{ site.baseurl }}/{{ page.image }}">
 <meta property="og:image" content="{{ site.baseurl }}/{{ page.image }}">
 {% else %}
+<meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="{{ site.baseurl }}/{{ site.logo }}">
 <meta property="og:image" content="{{ site.baseurl }}/{{ site.logo }}">
 {% endif %}
+
 <meta property="og:site_name" content="{{ site.description }}: {{ site.name }}"/>
 <meta property="og:title" content="{{ page.title }}}"/>    
 <meta property="og:description" content="{{ page.excerpt | strip_html | truncatewords:25}}" />
