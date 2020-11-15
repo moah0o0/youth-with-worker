@@ -30,9 +30,9 @@
 {"@type":"WebSite","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"{{ site.baseurl }}{{ site.logo }}"}},"headline":"{{ page.title }}","url":"{{ site.baseurl }}{{ page.url }}","name":"{{ site.name }}","description":"{{ site.description }}","@context":"http://schema.org"}</script>
 
 {% else if layout == "post"}
-{"@type":"BlogPosting","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"{{ site.baseurl }}{{ site.logo }}"}},"headline":"{{ page.title }}","url":"{{ site.baseurl }}{{ page.url }}","datePublished":"{{ page.date }}","mainEntityOfPage":{"@type":"WebPage","@id":"{{ site.baseurl }}{{ page.url }}"},"image":"{{ site.baseurl}}{{ page.image }}","description":"{{ page.excerpt | strip_html | truncatewords:25}}","@context":"http://schema.org"}</script>
+{"@type":"BlogPosting","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"{{ site.baseurl }}{{ site.logo }}"}},"headline":"{{ page.title }}","url":"{{ site.baseurl }}{{ page.url }}","datePublished":"{{ page.date }}","mainEntityOfPage":{"@type":"WebPage","@id":"{{ site.baseurl }}{{ page.url }}"},"image":"{{ site.baseurl}}{{ page.image }}","description":"{{ page.excerpt | strip_html | truncatewords:25 | strip_newlines }}","@context":"http://schema.org"}</script>
 {% else %}
-{"@type":"WebPage","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"{{ site.baseurl }}{{ site.logo }}"}},"headline":"{{ page.title }}","url":"{{ site.baseurl }}{{ page.url }}","image":"{{ site.baseurl}}{{ page.image }}","description":"{{ page.excerpt | strip_html | truncatewords:25}}","@context":"http://schema.org"}</script>
+{"@type":"WebPage","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"{{ site.baseurl }}{{ site.logo }}"}},"headline":"{{ page.title }}","url":"{{ site.baseurl }}{{ page.url }}","image":"{{ site.baseurl}}{{ page.image }}","description":"{{ page.excerpt | strip_html | truncatewords:25 | strip_newlines }}","@context":"http://schema.org"}</script>
 {% endif %}
 
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
