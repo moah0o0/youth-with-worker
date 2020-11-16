@@ -33,7 +33,7 @@ permalink: /about
 <p>위의 사항에 해당된다면 누구든지 <strong>나이와 관계없이</strong> 가입할 수 있습니다!🏃‍♀️🏃‍♀️</p>
 
 <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeLgQe8eUREB_2X3UuU7xPDZn7oXSByDPHu7XDZyK2Z4j93Fg/viewform?usp=sf_link" class="btn btn-danger">회원가입</a>
-<a target="_blank" href="/post/2020/06/27/platform/" class="btn btn-primary">강령</a>
+<a target="_blank" href="/post/2020/06/27/platform/" class="btn btn-primary">강령</a><br><br>
 <a target="_blank" href="/post/2020/06/27/for_equality/" class="btn btn-primary">평등한 조직운동을 위한 최소한의 약속</a>
 
 <br>
