@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "부산지하철노동조합 서비스지부 간담회"
-image: /assets/images/posts/20200518/1.jpg
+image: assets/images/posts/20200518/1.jpg
 tag: "활동 소식"
 category: "간담회"
 ---
