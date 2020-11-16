@@ -17,7 +17,7 @@ pagination:
 
     <div class="row listrecent">
 
-        {% for post in paginator.posts | sort: 'date' | reverse %}
+        {% for post in paginator.posts | sort: 'date' %}
 
         {% include postbox.html %}
 
